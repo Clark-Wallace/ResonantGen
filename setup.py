@@ -55,6 +55,7 @@ setup(
     entry_points={
         "console_scripts": [
             "resonantgen=resonantgen.cli:main",
+            "resonant=resonantgen.cli:main",
             "resonantgen-server=resonantgen.api.server:main",
         ],
     },

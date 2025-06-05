@@ -73,8 +73,10 @@ class MusicGenEngine:
                 **inputs,
                 max_new_tokens=tokens_needed,
                 do_sample=True,
-                guidance_scale=3.0,  # Balance between quality and diversity
-                temperature=1.0
+                guidance_scale=1.5,  # Lower = more natural, less "evil" sound
+                temperature=1.2,     # Slightly higher for musical variety
+                top_k=250,          # Limit choices for coherence
+                top_p=0.95          # Nucleus sampling for better quality
             )
         
         # Return single audio tensor
@@ -107,8 +109,10 @@ class MusicGenEngine:
                 **inputs,
                 max_new_tokens=tokens_needed,
                 do_sample=True,
-                guidance_scale=3.0,
-                temperature=1.0
+                guidance_scale=1.5,
+                temperature=1.2,
+                top_k=250,
+                top_p=0.95
             )
         
         # Return list of individual tracks
