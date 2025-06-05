@@ -1,0 +1,23 @@
+{
+  "name": "lofi_chill",
+  "description": "Chill lo-fi hip-hop with warm analog character",
+  "prompt": "relaxing lo-fi hip hop beat, warm vinyl sound, soft drums, jazzy chords, 75 BPM, peaceful morning vibes",
+  "duration": 8.0,
+  "tracks": [
+    "drums",
+    "bass",
+    "harmony",
+    "melody"
+  ],
+  "generated_at": "2025-06-04T22:42:37.611355",
+  "model_info": {
+    "engine": "MusicGen",
+    "size": "small",
+    "parameters": {
+      "guidance_scale": 1.5,
+      "temperature": 1.2,
+      "top_k": 250,
+      "top_p": 0.95
+    }
+  }
+}

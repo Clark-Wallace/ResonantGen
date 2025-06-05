@@ -1,0 +1,23 @@
+{
+  "name": "acoustic_folk",
+  "description": "Intimate acoustic folk with fingerpicked guitar",
+  "prompt": "gentle acoustic folk, fingerpicked guitar, warm and intimate, organic feel, 95 BPM, coffeehouse atmosphere",
+  "duration": 8.0,
+  "tracks": [
+    "drums",
+    "bass",
+    "harmony",
+    "melody"
+  ],
+  "generated_at": "2025-06-04T22:43:36.189150",
+  "model_info": {
+    "engine": "MusicGen",
+    "size": "small",
+    "parameters": {
+      "guidance_scale": 1.5,
+      "temperature": 1.2,
+      "top_k": 250,
+      "top_p": 0.95
+    }
+  }
+}

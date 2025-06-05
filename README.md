@@ -46,6 +46,20 @@ tracks['bass'] = maw.regenerate("more aggressive 303 acid bass")
 
 ---
 
+## 🎧 Sample Tracks
+
+**Listen to ResonantGen in action!** Check out the sample tracks in [`examples/samples/`](examples/samples/):
+
+- **🎵 Lofi Chill**: Warm lo-fi hip-hop with jazzy chords
+- **🎸 Acoustic Folk**: Intimate fingerpicked guitar atmosphere  
+- **🔊 Upbeat Electronic**: High-energy festival dance track
+
+Each sample includes both the final mix and individual stems (drums, bass, harmony, melody) showcasing the multi-track generation capabilities.
+
+▶️ **[Listen to samples →](examples/samples/)**
+
+---
+
 ## 🚀 Quick Start
 
 ```bash

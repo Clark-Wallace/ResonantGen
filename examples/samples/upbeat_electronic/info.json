@@ -1,0 +1,23 @@
+{
+  "name": "upbeat_electronic",
+  "description": "High-energy electronic dance track",
+  "prompt": "upbeat electronic dance music, energetic synths, four-on-the-floor kick, bright leads, 128 BPM, festival energy",
+  "duration": 8.0,
+  "tracks": [
+    "drums",
+    "bass",
+    "harmony",
+    "melody"
+  ],
+  "generated_at": "2025-06-04T22:43:06.117032",
+  "model_info": {
+    "engine": "MusicGen",
+    "size": "small",
+    "parameters": {
+      "guidance_scale": 1.5,
+      "temperature": 1.2,
+      "top_k": 250,
+      "top_p": 0.95
+    }
+  }
+}
