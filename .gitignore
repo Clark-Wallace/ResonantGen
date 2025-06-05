@@ -1,10 +1,13 @@
-# Audio outputs
+# Audio outputs (ignore generated sessions/tests, but allow examples)
 outputs/sessions/*
 outputs/tests/*
 temp/*
-*.wav
 *.mp3
 *.flac
+
+# Ignore wav files except in examples directory
+*.wav
+!examples/**/*.wav
 
 # Python
 __pycache__/
