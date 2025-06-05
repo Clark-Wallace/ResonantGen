@@ -8,7 +8,7 @@ Get up and running with the world's first AI Music Workstation in minutes.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ResonantGen.git
+git clone https://github.com/clark-wallace/ResonantGen.git
 cd ResonantGen
 
 # Install dependencies
